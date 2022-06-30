@@ -1,0 +1,274 @@
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Arial , sans-serif;
+}
+body{
+    width: 100%;
+    color: white;
+}
+hr{
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.first_section{
+    background: url("https://aqm.by/upload/dev2fun_opengraph/b9d/b9d2f2d3052b28d876320fab1ba3c071.jpg") no-repeat center top / cover;
+    background-color: rgba(69, 33, 56, 0.54);
+    background-blend-mode: multiply;
+    max-width: 100%;
+    color: white;
+}
+
+.navbar a{
+    color: white ;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 10px;
+}
+div #carousel{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+.carousel .carousel-control-prev-icon{
+    background-image:url("https://img.icons8.com/ios/100/FFFFFF/circled-chevron-left.png");
+    color: white;
+}
+.carousel .carousel-control-next-icon{
+    background-image:url("https://img.icons8.com/ios/100/FFFFFF/circled-chevron-right.png");
+    color: white;
+}
+.col-4{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40vh;
+}
+.nav_button {
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
+}
+
+.button {
+    display: inline-block;
+    font-family: Arial , sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 20%;
+}
+nav .navbar{
+    margin-left: auto;
+    color:white;
+}
+.navbar-brand{
+    margin-left: 20%;
+    margin-right: auto;
+}
+div #stairs{
+    background: url("https://i.pinimg.com/originals/b0/2c/f3/b02cf35a38dcc0078e157b54750a1aaa.jpg") no-repeat center top / cover;
+    background-color: rgba(69, 33, 56, 0.54);
+    background-blend-mode: multiply;
+    max-width: 100%;
+    height: 70vh;
+}
+div #stairs hr{
+    color: #00001e;
+}
+#stairs-text{
+    color: #7b7b7b;
+    text-align: center;
+    margin: 10vh auto 0;
+}
+#stairs-text h3{
+    color: #00001e;
+}
+#stairs-text p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.stairs-button {
+    display: inline-block;
+    font-family: Arial , sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #7b7b7b;
+    padding: 10px 30px;
+    border: 1px solid #7b7b7b;
+}
+.featured_works{
+    color: black;
+    background-color: #f2f2f2;
+    padding-top: 8vh;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.devices{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 60%;
+    position: center;
+    padding-right: 4%;
+}
+@media all and (max-width: 420px) {
+    .carousel-indicators {
+       position: absolute;
+        top: 0px;
+    }
+    .about-card a {
+        margin-left: 23px;
+        margin-right: 10px;
+    }
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    margin: 7px 7px 109vh;
+    border-radius: 50%;
+    background-color: rgba(123, 123, 123, 0.49);
+}
+.carousel-indicators .active{
+    background-color: #7b7b7b;
+}
+#grid {
+    display: grid;
+    grid-template-rows: 50% 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 50%;
+    padding-top: 10px;
+}
+#grid > div img{
+    max-width: 100%;
+}
+.services{
+    color: black;
+    text-align: center;
+}
+.aboutus{
+    padding-top: 9vh;
+    background: url("bgaboutus.png") no-repeat center top / cover;
+    color: #bdbdbe;
+}
+.aboutus h4{
+    color: white;
+    text-align: center;
+}
+.aboutus p {
+    text-align: center;
+    width: 60%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+}
+#grid_img {
+    display: grid;
+    grid-template-rows: 43% 43% 43%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 43%;
+    grid-column-gap: 20px;
+    margin-left: 20%;
+    max-width: 60%;
+}
+div .about-card{
+    color: white;
+    border: 3px solid #fff;
+    height: 270px;
+}
+.about-card a{
+    margin-right: 20px;
+    margin-left: 57px;
+}
+.testimonials{
+    color: black;
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.testimonials p {
+    text-align: center;
+    width: 60%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 20%;
+}
+.subscribe{
+    background-color: #2b63c2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+form{
+    width: 30%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    margin-left: 35%;
+}
+.subbutton {
+    display: inline-block;
+    font-family: Arial , sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    width: 100%;
+    background-color: #204a92;
+}
+.subscribe h6{
+    padding-bottom: 20px;
+}
+.subscribe > a{
+    margin-right: 20px;
+}
+.footer{
+    background: #383c45;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.footer-nav{
+    margin-left: 20%;
+}
+.footer-nav-r{
+    margin-right: 10%;
+}
+.footer-nav a{
+    font-size: 10px;
+    outline: none;
+    text-decoration: none;
+    color: #7b7b7b;
+    margin-right: 20px;
+}
+.footer-nav-r a{
+    font-size: 10px;
+    outline: none;
+    text-decoration: none;
+    color: #7b7b7b;
+    margin-left: 20px;
+}
