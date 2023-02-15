@@ -19,7 +19,7 @@ hr{
     margin-bottom: 30px;
 }
 div.first_section{
-    background: url("https://aqm.by/upload/dev2fun_opengraph/b9d/b9d2f2d3052b28d876320fab1ba3c071.jpg") no-repeat center top / cover;
+    background: url("main_picture.jpg") no-repeat center top / cover;
     background-color: rgba(69, 33, 56, 0.54);
     background-blend-mode: multiply;
     max-width: 100%;
